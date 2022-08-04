@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Jabascript arithmatic calculator</title>
+        <link rel="stylesheet" href="Lab7.css">
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+
+    <body>
+
+        <form action="" method="GET">
+            <fieldset>
+                <legend> My calculator </legend>
+                <textarea id="output"> </textarea>
+            </fieldset>
+
+
+            <br> <br> <br>
+
+
+            <fieldset>
+                <legend> Input </legend>
+
+                <table>
+                    <tr>
+                        <td> <label> Operands: </label> </td>
+                        <td colspan="3"> <input type="text" id="a" required></td>
+                        <td colspan="3"> <input type="text" id="b" required></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Operator: </label> </td>
+                        <td> <button onclick="funPlus(); return false;"> <b> + </b> </button></td>
+                        <td> <button onclick="funMul(); return false;"> <b> X </b> </button></td>
+                        <td> <button onclick="funDiv(); return false;"> <b> / </b> </button></td>
+                        <td> <button onclick="funClear(); return false;"> <b> clear </b> </button></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        </form>
+
+    </body>
+    <script src="jav.js"></script>
+
+</html>
